@@ -76,9 +76,15 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
+<<<<<<< HEAD
 	'username' => 'root',
 	'password' => '',
 	'database' => 'weblanjut',
+=======
+	'username' => '',
+	'password' => '',
+	'database' => '',
+>>>>>>> 565f1ff6975d4219aeb8788e0efb671926c941ec
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
