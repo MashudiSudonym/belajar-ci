@@ -23,5 +23,13 @@ class Template extends MY_Controller
     $this->load->view('template/mdl_template_v', $data);
   }
 
+  function crudmdl_template($data = null) {
+    $this->load->view('template/crudmdl_template_v', $data);
+  }
+
+  function crudmdl2_template($data = null) {
+    $this->load->view('template/crudmdl2_template_v', $data);
+  }
+
 }
  ?>
